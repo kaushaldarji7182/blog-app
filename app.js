@@ -65,7 +65,7 @@ app.use("/posts", postRoutes);
 app.use("/posts/:id/comments", commentRoutes);
 app.use("/user", userRoutes);
 
-let port = process.env.PORT || 3030;
+let port = process.env.PORT || 3000;
 
 app.listen(port, () => {
   console.log(`Server Listening at http://localhost:${port}`);
